@@ -100,10 +100,10 @@ Again, if you're relatively new to JavaScript (or ES2015+ syntax), you may wonde
 
 If we put all of this together, we should get a very basic (boring) table. (_Styles added just to make it a little more attractive..._)
 
-import { Playground } from 'docz'
-import { useTable } from '../src/hooks/useTable'
-
 ```js
+import React from 'react'
+import { useTable } from 'react-table'
+
 function App() {
   const data = React.useMemo(
     () => [
